@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/images/favicon/apple-touch-icon.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon/favicon-32x32.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/images/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="./assets/images/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./assets/images/favicon/safari-pinned-tab.svg"
+      color="#ff9900" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ff9900" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/font-awesome/css/fontawesome.css" />
+    <link rel="stylesheet" href="./assets/font-awesome/css/brands.css" />
+    <link rel="stylesheet" href="./assets/font-awesome/css/solid.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <title>Design</title>
+  </head>
+  <body id="home">
+    <div class="page_container">
+      <!-- #region Header -->
+      <header class="header">
+        <nav class="navigation_container">
+          <img
+            src="./assets/images/Logo.svg"
+            alt="Productly_logo"
+            class="logo" />
+
+          <ul class="menu">
+            <li class="menu_item"><a href="#">Product</a></li>
+            <li class="menu_item"><a href="#">Customers</a></li>
+            <li class="menu_item"><a href="#">Pricing</a></li>
+            <li class="menu_item"><a href="#">Resources</a></li>
+          </ul>
+          <div class="sign_container">
+            <div class="sign_in button">
+              <a href="#pop_up_container">Sign In</a>
+            </div>
+            <div class="sign_up button">
+              <a href="#pop_up_container">Sign Up</a>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!-- #endregion -->
+
+      <!-- #region Pop-Up menu -->
+      <div class="pop_up">
+        <div class="pop_up_container" id="pop_up_container">
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">@</span>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Username"
+              aria-label="Username"
+              aria-describedby="basic-addon1" />
+          </div>
+
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Recipient's username"
+              aria-label="Recipient's username"
+              aria-describedby="basic-addon2" />
+            <span class="input-group-text" id="basic-addon2">@example.com</span>
+          </div>
+
+          <label for="basic-url" class="form-label"> URL</label>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon3"
+              >https://example.com/users/</span
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="basic-url"
+              aria-describedby="basic-addon3" />
+          </div>
+
+          <div class="input-group mb-3">
+            <span class="input-group-text">$</span>
+            <input
+              type="text"
+              class="form-control"
+              aria-label="Amount (to the nearest dollar)" />
+            <span class="input-group-text">.00</span>
+          </div>
+
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Username"
+              aria-label="Username" />
+            <span class="input-group-text">@</span>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Server"
+              aria-label="Server" />
+          </div>
+
+          <div class="input-group">
+            <span class="input-group-text">comments:</span>
+            <textarea
+              class="form-control"
+              aria-label="With textarea"></textarea>
+          </div>
+          <div class="input-group">
+            <button class="btn btn-primary" type="submit">
+              <a href="#home">Submit</a>
+            </button>
+            <button class="btn btn-primary" type="submit">
+              <a href="#home">Reset</a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- #endregion -->
+
+      <!-- #region First Screen -->
+      <section class="first_screen pb100">
+        <div class="first_screen_container">
+          <div class="first_screen_left_part">
+            <h1 class="first_screen_heading">
+              The Design Thinking superpowers
+            </h1>
+            <p class="first_screen_subheading">
+              Tools, tutorials, design and innovation experts, all in one place!
+              The most intuitive way to imagine your next user experience.
+            </p>
+            <button class="get_started button">Get started</button>
+          </div>
+          <div class="first_screen_right_part">
+            <img
+              src="./assets/images/first_screen_right_part.png"
+              alt="first_screen_right_part" />
+          </div>
+        </div>
+      </section>
+      <!-- #endregion -->
+
+      <!-- #region Tools -->
+      <section class="tools pb100">
+        <div class="tools_container">
+          <p class="tools_heading">
+            We design tools to unveil your superpowers
+          </p>
+          <ul class="tools_list">
+            <li class="tools_item">
+              <span class="tools_icon tlz_icon_clr1"
+                ><i
+                  class="fa-solid fa-arrow-pointer"
+                  style="color: #ffffff"></i>
+              </span>
+              <p class="tools_name">First click tests</p>
+              <p class="tools_description">
+                While most people enjoy casino gambling,
+              </p>
+            </li>
+            <li class="tools_item">
+              <span class="tools_icon tlz_icon_clr2"
+                ><i class="fa-brands fa-stumbleupon" style="color: #ffffff"></i
+              ></span>
+              <p class="tools_name">Design surveys</p>
+              <p class="tools_description">
+                Sports betting, lottery and bingo playing for the fun
+              </p>
+            </li>
+            <li class="tools_item">
+              <span class="tools_icon tlz_icon_clr3"
+                ><i class="fa-solid fa-heart" style="color: #ffffff"></i>
+              </span>
+              <p class="tools_name">Preference tests</p>
+              <p class="tools_description">
+                The Myspace page defines the individual.
+              </p>
+            </li>
+            <li class="tools_item">
+              <span class="tools_icon tlz_icon_clr4"
+                ><i
+                  class="fa-regular fa-hourglass-half"
+                  style="color: #ffffff"></i>
+              </span>
+
+              <p class="tools_name">Five second tests</p>
+              <p class="tools_description">
+                Personal choices and the overall personality of the person.
+              </p>
+            </li>
+          </ul>
+          <div class="sign_up tools_button button">
+            <a href="#pop_up_container">Sign up Now</a>
+          </div>
+        </div>
+      </section>
+      <!-- #endregion -->
+
+      <!-- #region Design Professionals -->
+      <section class="designer pb100">
+        <div class="designer_container">
+          <div class="designer_left_part">
+            <p class="designer_subheading">Effortless Validation for</p>
+            <h2 class="designer_heading">Design Professionals</h2>
+
+            <p class="designer_about">
+              The Myspace page defines the individual, his or her
+              characteristics, traits, personal choices and the overall
+              personality of the person.
+            </p>
+            <ul class="designer_list">
+              <li class="designer_item">
+                <p class="designer_item_name">Accessory makers</p>
+                <p class="designer_item_description">
+                  While most people enjoy casino gambling, sports betting,
+                  lottery and bingo playing for the fun
+                </p>
+              </li>
+              <li class="designer_item">
+                <p class="designer_item_name">Alterationists</p>
+                <p class="designer_item_description">
+                  If you are looking for a new way to promote your business that
+                  won’t cost you more money,
+                </p>
+              </li>
+              <li class="designer_item">
+                <p class="designer_item_name">Custom Design designers</p>
+                <p class="designer_item_description">
+                  If you are looking for a new way to promote your business that
+                  won’t cost you more money,
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="designer_right_part">
+            <img
+              class="designer_img"
+              src="./assets/images/designer.png"
+              alt="designer_be_like" />
+          </div>
+        </div>
+      </section>
+      <!-- #endregion -->
+
+      <!-- #region Product Managers -->
+      <section class="Managers pb100">
+        <div class="managers_container">
+          <div class="managers_left_part">
+            <img
+              src="./assets/images/product_manager.png"
+              alt="product_manager_be_like"
+              class="managers_img" />
+          </div>
+          <div class="managers_right_part">
+            <p class="manager_subheading">Easier decision making for</p>
+            <h2 class="manager_heading">Product Managers</h2>
+
+            <p class="manager_about">
+              The Myspace page defines the individual, his or her
+              characteristics, traits, personal choices and the overall
+              personality of the person.
+            </p>
+
+            <ul class="manager_list">
+              <li class="manager_item">
+                <div class="ready_to_use_custom_checkbox">
+                  <div class="checkbox_div">
+                    <div class="checkbox_container">
+                      <input
+                        type="checkbox"
+                        value="1"
+                        id="true_checkbox1"
+                        class="hidden_but_real_checkbox"
+                        checked />
+                      <label
+                        for="true_checkbox1"
+                        class="label-fake_but_working_checkbox"
+                        ><span class="bg_of_the_custom_checkmark">
+                          <span class="checkmark">
+                            <span class="text_for_a_checkbox"
+                              >Never worry about overpaying for your energy bill
+                              again.
+                            </span>
+                          </span></span
+                        >
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="manager_item">
+                <div class="ready_to_use_custom_checkbox">
+                  <div class="checkbox_div">
+                    <div class="checkbox_container">
+                      <input
+                        type="checkbox"
+                        value="1"
+                        id="true_checkbox"
+                        class="hidden_but_real_checkbox"
+                        checked />
+                      <label
+                        for="true_checkbox"
+                        class="label-fake_but_working_checkbox"
+                        ><span class="bg_of_the_custom_checkmark">
+                          <span class="checkmark">
+                            <span class="text_for_a_checkbox"
+                              >We will only switch you to energy companies that
+                              we trust and will treat you right.
+                            </span>
+                          </span></span
+                        >
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="manager_item">
+                <div class="ready_to_use_custom_checkbox">
+                  <div class="checkbox_div">
+                    <div class="checkbox_container">
+                      <input
+                        type="checkbox"
+                        value="1"
+                        id="true_checkbox3"
+                        class="hidden_but_real_checkbox"
+                        checked />
+                      <label
+                        for="true_checkbox3"
+                        class="label-fake_but_working_checkbox"
+                        ><span class="bg_of_the_custom_checkmark">
+                          <span class="checkmark">
+                            <span class="text_for_a_checkbox"
+                              >We track the markets daily and know where the
+                              savings are.
+                            </span></span
+                          ></span
+                        ></label
+                      >
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- #endregion -->
+
+      <!-- #region Marketers -->
+      <section class="marketers pb100">
+        <div class="marketers_container">
+          <div class="marketers_left_part">
+            <p class="marketers_subheading">Optimisation for</p>
+            <h2 class="marketers_heading">Marketers</h2>
+
+            <p class="marketers_about">
+              Few would argue that, despite the advancements of feminism over
+              the past three decades, women still face a double standard when it
+              comes to their behavior.
+            </p>
+            <ul class="marketers_list">
+              <li class="marketers_item">
+                <p class="marketers_item_name">Accessory makers</p>
+                <p class="marketers_item_description">
+                  While most people enjoy casino gambling, sports betting,
+                  lottery and bingo playing for the fun
+                </p>
+              </li>
+              <li class="marketers_item">
+                <p class="marketers_item_name">Alterationists</p>
+                <p class="marketers_item_description">
+                  If you are looking for a new way to promote your business that
+                  won’t cost you more money,
+                </p>
+              </li>
+              <li class="marketers_item">
+                <p class="marketers_item_name">Custom Design designers</p>
+                <p class="marketers_item_description">
+                  If you are looking for a new way to promote your business that
+                  won’t cost you more money,
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="marketers_right_part">
+            <img
+              class="marketers_img"
+              src="./assets/images/marketer.png"
+              alt="marketers_be_like" />
+          </div>
+        </div>
+      </section>
+      <!-- #endregion -->
+
+      <!-- #region Footer -->
+
+      <footer class="footer">
+        <div class="footer_container">
+          <img
+            src="./assets/images/Logo.svg"
+            alt="Productly_logo"
+            class="logo footer_logo" />
+          <div class="footer_list_container">
+            <p class="footer_titles">Quick Links</p>
+            <ul class="footer_lists">
+              <li class="footer_list_items"><a class="footer_a" href="#">About Us</a></li>
+              <li class="footer_list_items"><a class="footer_a" href="#">Blog</a></li>
+              <li class="footer_list_items"><a class="footer_a" href="#">Contact</a></li>
+              <li class="footer_list_items"><a class="footer_a" href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footer_list_container">
+            <p class="footer_titles">Legal Stuff</p>
+            <ul class="footer_lists">
+              <li class="footer_list_items"><a class="footer_a" href="#">Disclaimer</a></li>
+              <li class="footer_list_items"><a class="footer_a" href="#">Financing</a></li>
+              <li class="footer_list_items"><a class="footer_a" href="#">Privacy</a> Policy</li>
+              <li class="footer_list_items"><a class="footer_a" href="#">Terms of Service</a></li>
+            </ul>
+          </div>
+          <div class="form_container">
+            <p class="footer_titles">
+              Knowing you're always on the best energy deal.
+            </p>
+            <input
+              class="phone_input"
+              type="tel"
+              placeholder="Enter your phone Number" required/>
+            <div class="sign_up footer_button button" >
+              <a  href="#pop_up_container">Sign up Now</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- #endregion -->
+    </div>
+  </body>
+</html>

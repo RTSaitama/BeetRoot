@@ -1,0 +1,91 @@
+*{
+
+}
+html{
+  background-color:
+}
+h1{
+text-align: center;
+font-style: italic;
+color: aliceblue;
+font-size: 18px;
+}
+h2{
+ 
+}
+
+ .search-container{
+  width: 100%;
+  background-color: rgb(100, 95, 95);
+  display:block;
+ height: 50px;
+}
+.container{
+ 
+  width: 700px;
+  padding: 16px;
+  background-color: rgb(139, 136, 136);
+  z-index: -1;
+}
+input[type=password] , input[type=email], input[type=tel],    input[type=img], input[type=url]{
+  width: 95%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+ 
+}
+.comments{
+  width: 100%;
+}
+.url{
+  font-size: 16px;
+  margin-top: 20px;
+  display: block;
+ 
+}
+.header{
+ display: block;
+ 
+  background-color: rgba(96, 88, 88, 0.801);
+ 
+}
+.photo {
+ margin-top: 50px;  
+  height: 100px;
+  width: 200px;
+ 
+}
+
+ .age-output{
+  border-radius: 10%;
+  background-color: rgba(232, 242, 236, 0.593);
+  padding: 2px;
+
+ }
+
+.age{
+  margin-bottom: 20px;
+}
+.additional-info label{
+ margin-left: 50px;
+}
+ 
+.submit {
+background-color: rgb(44, 44, 154);
+ 
+}
+.meta_info input{
+  display: block;
+  max-width: 300px;
+ 
+}
+.reset {
+  margin-left: 200px;
+ 
+  background-color:  rgb(206, 52, 52);
+}
+ 
+.buttons{
+ 
+}

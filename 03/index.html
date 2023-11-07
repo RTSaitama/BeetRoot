@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet" />
+    <title>Homework[3]</title>
+  </head>
+  <body class="body">
+    <div class="container">
+      <!-- #region Header -->
+      <header сlass="header">
+        <h1>HTML5 Семантичні елементи</h1>
+        <p class="paragraph">
+        <h2 >Нові семантичні елементи в HTML5</h2>
+        <a href="#new-sem-elements"">Семантичний елемент</a> чітко описує його значення як для <a href="#browsers">браузера</a> , так і
+          для розробника.
+        </p>
+        <p class="paragraph">
+          Приклади несемантичних елементів: <<span>div</span>> і
+          <<span>span</span>> -нічого не говорить про його вміст.
+        </p>
+        <p class="paragraph">
+          Приклади семантичних елементів:
+          <<span>form</span>>,<<span>table</span>>і <<span><a class="nav_link" href="#article">article</a> </span>>-чітко
+          визначає його зміст.
+        </p>
+      </header>
+      <!-- #endregion -->
+      <!-- #region Browsers -->
+      <section class="browsers" id="browsers">
+        <h2>Підтримка браузерів</h2>
+        <div class="browser-icons_container">
+          <img
+            class="browser_icons"
+            src="./assets/images/chrome_icon.png"
+            alt="chrome_icon" />
+          <img
+            class="browser_icons"
+            src="./assets/images/explorer_icon.png"
+            alt="explorer_icon" />
+          <img
+            class="browser_icons"
+            src="./assets/images/mozilla_icon.png"
+            alt="mozilla_icon" />
+          <img
+            class="browser_icons"
+            src="./assets/images/safari_icon.png"
+            alt="safari_icon" />
+          <img
+            class="browser_icons"
+            src="./assets/images/opera_icon.png"
+            alt="opera_icon" />
+        </div>
+        <p class="paragraph">
+          Семантичні елементи HTML5 підтримуються у всіх сучасних браузерах.
+        </p>
+        <p class="paragraph">
+          Крім того, ви можете "навчити" старих браузерів, як обробляти
+          "невідомі елементи".
+        </p>
+        <p class="paragraph">
+          Прочитайте про це в
+          <a
+            class="browsers_link"
+            href="https://www.blogger.com/blog/page/edit/2590532390801722394/850003172824707311#?"
+            >підтримці браузера HTML5</a
+          >.
+        </p>
+      </section>
+      <!-- #endregion -->
+      <!-- #region New Semanthic Elements in HTML5 -->
+      <section class="new-sem-elements">
+        <h2 id="new-sem-elements">Нові семантичні елементи в HTML5</h2>
+        <ul class="list">
+          <p class="li_title">
+            HTML5 пропонує нові семантичні елементи для визначення різних частин
+            веб-сторінки:
+          </p>
+          <li class="item">
+            <span class="point">●</span><<span><a class="nav_link" href="#section">section</a></span>>
+          </li>
+          <li class="item">
+            <span class="point">●</span><<span><a class="nav_link" href="#article">article</a></span>>
+          </li>
+          <li class="item">
+            <span class="point">●</span><<span><a class="nav_link" href="#header">header</a></span>>
+          </li>
+          <li class="item">
+            <span class="point">●</span><<span><a class="nav_link" href="#footer">footer</a></span>>
+          </li>
+          <!-- спеціально точки зробив окремо. -->
+        </ul>
+      </section>
+      <!-- #endregion -->
+      <!-- #region "Section" element -->
+      <section class="section-element">
+        <h2 id="section">HTML5 <<span>section</span>> елемент</h2>
+        <p class="paragraph">
+          Елемент <<span>section</span>>визначає розділ в документі.
+        </p>
+        <p class="paragraph">
+          Згідно з документацією в3к'с HTML5: "розділ представляє собою
+          тематичну угруповання контенту, зазвичай з заголовком".
+        </p>
+        <p class="paragraph">
+          Домашня сторінка зазвичай може бути розділена на розділи для
+          ознайомлення, змісту і контактної інформації.
+        </p>
+        <img
+          class="example"
+          src="./assets/images/example_section.png"
+          alt="section_example" />
+      </section>
+      <!-- #endregion -->
+      <!-- #region "Article" element -->
+      <section class="article_element">
+        <h2 id="article">HTML5 <<span>article</span>> елемент</h2>
+        <p class="paragraph">
+          Елемент <<span>article</span>> визначає незалежний, автономний вміст.
+        </p>
+        <p class="paragraph">
+          Стаття повинна мати сенс самостійно, і вона повинна мати можливість
+          читати його незалежно від іншої частини веб-сайту.
+        </p>
+        <p class="paragraph">
+          Приклади того, де можна використовувати елемент <<span>article</span>>
+          :
+        </p>
+        <ul class="list">
+          <li class="item">
+            <span class="point">●</span>Повідомлення на форумі
+          </li>
+          <li class="item"><span class="point">●</span>блозі</li>
+          <li class="item"><span class="point">●</span>Газетна стаття</li>
+        </ul>
+        <img
+          class="example"
+          src="./assets/images/example_article.png"
+          alt="article_example" />
+      </section>
+      <!-- #endregion -->
+      <!-- #region "Header" element -->
+      <section class="header-element">
+        <h2 id="header">HTML5<<span>header</span>>елемент</h2>
+        <p class="paragraph">
+          Елемент <<span>header</span>> задає заголовок для документа або
+          розділу.
+        </p>
+        <p class="paragraph">
+          Елемент <<span>header</span>> повинен використовуватися в якості
+          контейнера для вступного змісту.
+        </p>
+        <p class="paragraph">
+          В одному документі може бути кілька елементів <<span>header</span>> .
+        </p>
+        <p class="paragraph">
+          У наступному прикладі визначається заголовок для статті:
+        </p>
+        <img
+          src="./assets/images/example_header.png"
+          alt="header_example"
+          class="example" />
+      </section>
+      <!-- #endregion -->
+      <!-- #region "Footer"element -->
+      <section class="footer-element">
+        <h2 id="footer">HTML5<<span>footer</span>>елемент</h2>
+        <p class="paragraph">
+          Елемент <<span>footer</span>> вказує нижній колонтитул для документа
+          або розділу.
+        </p>
+        <p class="paragraph">
+          Нижній колонтитул зазвичай містить автора документа, інформацію про
+          авторське право, посилання на умови використання, контактні дані і
+          т.д.
+        </p>
+        <p class="paragraph">
+          В одному документі може бути кілька елементів <<span>footer</span>> .
+        </p>
+        <img class="example" src="./assets/images/example_footer.png"
+        alt="footer_example" ">
+      </section>
+      <!-- #endregion -->
+      <footer class="footer">
+        <section class="iframe">
+          <iframe
+            src="https://deadnekroz.github.io/Homeworks-/01/"
+            frameborder="0"
+            width="1250px"
+            height="800"></iframe>
+        </section>
+
+        <section class="video_section"></section>
+        <iframe width="1250" height="506" src="https://www.youtube.com/embed/dEBVe8Ij7JU?list=PLytQ0YczAfcdj-OUqWO20vPsr0ix0M1Us" title="Front-End розробка. Сучасні тренди" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+         
+        </iframe>
+      </footer>
+    </div>
+  </body>
+</html>

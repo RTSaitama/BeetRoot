@@ -1,0 +1,55 @@
+.border_top {
+  width: 400px;
+  height: 400px;
+}
+.border_top::before {
+  left: -15px;
+  top: -15px;
+  border-width: 1px 0 0 1px;
+  width: 100px;
+  height: 100px;
+  border-color: #FFCC00;
+  border-style: solid;
+  position: absolute;
+  content: "";
+}
+.border_top::after {
+  position: absolute;
+  right: 15px;
+  top: -15px;
+  border-width: 1px 1px 0 0;
+  width: 100px;
+  height: 100px;
+  border-color: #FFCC00;
+  border-style: solid;
+  position: absolute;
+  content: "";
+}
+
+.border_bot {
+  height: 432px;
+  width: 432px;
+  position: absolute;
+}
+.border_bot::before {
+  right: 15px;
+  bottom: 15px;
+  border-width: 0 1px 1px 0;
+  width: 100px;
+  height: 100px;
+  border-color: #FFCC00;
+  border-style: solid;
+  position: absolute;
+  content: "";
+}
+.border_bot::after {
+  left: -15px;
+  bottom: 15px;
+  border-width: 0 0 1px 1px;
+  width: 100px;
+  height: 100px;
+  border-color: #FFCC00;
+  border-style: solid;
+  position: absolute;
+  content: "";
+}

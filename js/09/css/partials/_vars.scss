@@ -1,0 +1,76 @@
+$tomato-light:#F16A50;
+$brown-light: #F8F1EA;
+$black:#000;
+$brown-dark:#35312D;
+$arrow-inactive: #202020;
+$tomato:#C62100;
+$dot-inactive:rgba(248, 241, 234, 0.70);
+$dark-dot-inactive: #CAC2BA;
+
+@mixin typo($color, $fsz, $fs, $lh, $ff) {
+  color: $color;
+  font-family: $ff;
+  font-size: $fsz;
+  font-style: $fs;
+  line-height: $lh;
+}
+@mixin h1{
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  text-align: center;
+}
+@mixin h2{
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+@mixin menuText{
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+@mixin productDescriptionText{
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;  
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+@mixin priceText{
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+@mixin buttonAndStatusText{
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+@mixin footerHeads {
+ color: $brown-light;
+font-family: Montserrat;
+font-size: 26px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}

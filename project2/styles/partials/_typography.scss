@@ -1,0 +1,130 @@
+@import './vars';
+
+
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Source Sans 3', sans-serif;
+* {
+  font-family: 'Montserrat', sans-serif;
+  // font-size: 18px;
+  color: $mainDark;
+}
+
+.page_wrapper {
+  font-size: 18px;
+}
+
+//  #region Hero typo
+.head_nav {
+  @include headerNav;
+}
+
+.head_nav_item {
+  @include headerNav;
+
+  a {
+    @include headerNav;
+
+  }
+}
+
+.hero_motto {
+  @include h1;
+}
+
+.hero_sub {
+  @include heroSub;
+}
+
+// #endregion
+
+// #region What we do typo
+
+
+.weDoHeading {
+  @include lilHeading;
+}
+
+.weDoSubTitle {
+  @include sub;
+}
+
+.weDoTextTitle {
+  @include lilHeading;
+}
+
+.weDoTextContent {
+  @include textContent;
+}
+
+.more_details_btn {
+  @include btn;
+}
+
+// #endregion
+
+// #region Latest News typo
+
+.latestNewsHeading {
+  @include lilHeading;
+  color: $mainLight;
+}
+
+.news_card_title {
+  @include sub;
+  font-weight: 700;
+
+}
+
+.news_card_text_content {
+  @include textContent;
+}
+
+.news_card_author {
+  @include authorName;
+}
+
+.news_card_date {
+  @include meta;
+}
+
+// #endregion
+// #region Gallery
+.galleryHeading {
+  @include lilHeading;
+}
+
+// #endregion
+// #region Footer
+.policy {
+  @include policy;
+}
+
+// #endregion
+
+// #region Form
+
+.formHeading {
+  @include lilHeading;
+}
+
+.get_in_touch_form {
+  @include form;
+}
+
+.markerText {
+  @include mapMark;
+}
+
+
+.form_contacts {
+  @include form;
+}
+
+.toAuth {
+  button {
+    @include footerBtn
+  }
+}
+
+// #endregion

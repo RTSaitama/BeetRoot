@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Homework[04]</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>Registration Form</h1>
+        <div class="search-container">
+          <h2>Search:</h2>
+          <form
+            action="https://www.google.com/search"
+            target="_blank"
+            class="search">
+            <input type="text" name="q" id="search" class="search" />
+            <button type="submit">Search</button>
+          </form>
+        </div>
+      </header>
+      <form
+        action="https://jkorpela.fi/cgi-bin/echo.cgi"
+        method="get"
+        target="_blank"
+        id="main-form"
+        enctype="multipart/form-data">
+        <div class="photo">
+          <label for="user-photo">Load your photo here</label>
+          <input type="image" name="user-photo" alt="user-photo" />
+        </div>
+        <div class="name">
+          <label for="user-name">First name:</label>
+          <input type="text" id="user-name" placeholder="Kyle" required />
+          <label for="user-fullname">Full name:</label>
+          <input
+            type="text"
+            id="user-fullname"
+            placeholder="Broflovski"
+            required />
+        </div>
+        <div class="contacts">
+          <h2>Your contacts</h2>
+          <div class="mail">
+            <label for="user-email">Email:</label>
+            <input type="email" id="user-email" value="@gmail.com" required />
+          </div>
+          <label for="user-phone">Phone number:</label>
+          <input type="tel" id="user-phone" value="+380" required />
+        </div>
+        <div class="password">
+          <label for="user-password">Your password:</label>
+          <input
+            type="password"
+            id="user-password"
+            minlength="8"
+            required
+            placeholder="8+symbols" />
+          <label for="user-password-again">Confirm your password:</label>
+          <input type="password" id="user-password-again" required />
+        </div>
+        <div class="gender">
+          <h3>Choose your gender</h3>
+          <label for="user-gender-male">Male</label>
+          <input
+            type="radio"
+            name="user-gender"
+            id="user-gender-male"
+            checked />
+
+          <label for="user-gender-female">Female</label>
+          <input
+            type="radio"
+            name="user-gender"
+            id="user-gender-female"
+            required />
+        </div>
+
+        <div class="age">
+          <label for="user-age">Your age</label>
+          <input
+            type="range"
+            name="user-age"
+            id="ageInputId"
+            min="18"
+            max="60"
+            oninput="ageOutputId.value = ageInputId.value"
+            value="1" />
+          <output class="age-output" name="ageOutputName" id="ageOutputId"
+            >1</output
+          >
+        </div>
+        <div class="courses_and_text">
+          <fieldset>
+            <textarea
+              name="address"
+              id="address"
+              cols="30"
+              rows="3"
+              placeholder="please,add you FULL address here"
+              required
+              class="user-full-address"></textarea>
+            <div class="courses">
+              <label for="courses">Choose your course</label>
+              <select name="courses" id="courses">
+                <option value="Front-End" selected>Front-End</option>
+                <option value="Back-End,">Back-End</option>
+                <option value="Project Management">Project Management</option>
+                <option value="QA Manual">QA Manual</option>
+              </select>
+            </div>
+          </fieldset>
+        </div>
+        <div class="meta_info">
+          <fieldset>
+            <h2>Please,add meta for this form(anyway)</h2>
+            <label for="date">date</label>
+            <input type="date" id="date"/>
+            <label for="datetime">Period of year</label>
+            <input type="datetime" id="datetime"/>
+            <input type="month" id="month"/>
+            <input type="datetime-local" id="datetime-local"/>
+            <input type="week" id="week"/>
+          </fieldset>
+        </div>
+        <input type="hidden" />
+        <div class="additional-info">
+          <h2>Additional information about you:</h2>
+          <label for="user-color">favorite color</label>
+          <input class="color" type="color" id="user-color" />
+          <label for="user-pref-numb"> favorite number </label>
+          <input
+            type="number"
+            id="user-pref-numb"
+            placeholder="first number you had just think about" />
+          <label for="user-url" class="url">your profiles wherever </label>
+          <input
+            type="url"
+            id="user-url"
+            class="url"
+            placeholder="https://" />
+          <textarea
+            name="user-comment"
+            id="user-comment"
+            cols="30"
+            rows="10"
+            class="comments"
+            placeholder="Add your comments here"></textarea>
+        </div>
+
+        <div class="buttons">
+          <label for="policy">I agree to process my personal data</label>
+          <input type="checkbox" name="policy" required />
+          <button class="submit button" type="submit">
+            <img src="./images/safety.png" alt="safety" width="50px"
+            height="40px" / class="img">Send form
+          </button>
+          <input type="reset" name="reset" class="reset button" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

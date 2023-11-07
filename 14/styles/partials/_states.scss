@@ -1,0 +1,30 @@
+a:hover{
+  cursor:url("/14/assets/images/cursor.svg"), pointer;
+}
+.socket:hover  {
+    background-color: var(--desc_grey);
+    & #social_icon   {
+       --desc_grey:#ffffff ;
+    }
+    // cursor:url("/14/assets/images/cursor.svg"), pointer;
+    
+  }
+  // .contacts_link a:hover{
+  //  cursor:url("/14/assets/images/cursor.svg"), pointer;
+  // }
+  // .searh_btn:hover{
+  //  cursor:url("/14/assets/images/cursor.svg"), pointer;
+  // }
+  .nav_link:hover{
+  //  cursor:url("/14/assets/images/cursor.svg"), pointer;
+   &:after{
+   content:'';
+   display: inline-block;
+   position: absolute;
+   width: 80%;
+   height: 2px;
+   top: 20px;
+   right: 15%;
+   background-color: #000;
+ }
+ }

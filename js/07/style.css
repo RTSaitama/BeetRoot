@@ -1,0 +1,61 @@
+.container{
+  position: relative;
+  display: flex;
+  max-width: 1200px;
+  margin-top: 20px;
+  width: 100%;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.btn{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: rgb(125, 21, 21);
+  border: 5px solid black;
+width: 150px;
+height: 150px;
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+font-size: 55px;
+color: red;
+text-shadow: 0.5 0.5 0.5 black;
+}
+ol{
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+ 
+  flex-wrap: wrap;
+  gap: 60px;
+
+}
+.hide{
+  display: none;
+}
+ol li{
+  text-align: center;
+
+  padding: 25px;
+  min-height: 50px;
+  width: 350px;
+  background-image: url(./rotsK.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 20px;
+  
+ }
+span{
+  color: rgb(247, 164, 31);
+  text-shadow: .5px .9px 1.5px rgb(165, 17, 17)
+}
+ 

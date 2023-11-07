@@ -1,0 +1,62 @@
+.header_heading {
+  color: #FFF;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  line-height: 108.333%;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.header_subheading {
+  color: #FFF;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  line-height: 127.273%;
+  letter-spacing: 6.82px;
+}
+
+.header {
+  width: 100%;
+  height: 100%;
+  max-width: 1920px;
+  height: 862px;
+  background-image: url(../assets/images/header_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.header .container {
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.search_wrapper {
+  color: var(--Text-Grey, #999);
+  /* Body 1 */
+  font-family: Josefin Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 142.857% */
+  letter-spacing: 2.8px;
+}
+
+.header_search {
+  color: #999;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 142.857%;
+  letter-spacing: 2.8px;
+}

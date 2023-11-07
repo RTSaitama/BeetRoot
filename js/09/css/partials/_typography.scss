@@ -1,0 +1,78 @@
+@import "./vars";
+body{
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  
+  
+}
+// #region Hero
+.slide_title{
+ @include h1;
+ color:#ffffff;
+}
+.toViewMore{
+  @include buttonAndStatusText;
+  color: #ffffff;
+}
+.navigation{
+  @include menuText;
+}
+// #endregion
+
+// #region Arrivals
+.arrivals_title{
+  @include h2;
+  display: inline-block;
+}
+.arrivals_to_view_more{
+  @include buttonAndStatusText;
+}
+ 
+ 
+.product_description {
+ @include productDescriptionText;
+}
+.product_price {
+  @include priceText;
+}
+.product_status{
+color: $brown-light;
+background-color:$tomato-light ;
+text-align: center;
+z-index: 2;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+}
+// #endregion
+
+// #region Partners
+
+.partners_title{
+  @include h2;
+}
+// #endregion
+
+// #region Footer
+.footer_nav_list{
+  @include menuText;
+  color: #ffffff;
+}
+.contactUs , .tel{
+  @include footerHeads
+}
+.policy{
+  color: $brown-light;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+ 
+// #endregion

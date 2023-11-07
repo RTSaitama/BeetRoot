@@ -1,0 +1,54 @@
+body{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;padding: 0;
+}
+.footerBG{
+  margin: 0 auto;
+  width: 100%;
+
+  height: 549px;
+}
+.customSlide{
+  
+  width: 101%;
+  min-height: 549px;
+
+
+}
+.footerSlider{
+    position: relative;
+    z-index: 1;
+    width: 500%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:10px; 
+    min-height: 549px;
+    position: relative;
+
+    will-change: transform;
+    transition: transform .3s ease;
+    :nth-child(1){
+
+    background:linear-gradient( rgba(126, 90, 255, 1), rgba(85, 183, 255, 1));
+  };
+  :nth-child(2){
+
+    background:linear-gradient( rgb(215, 137, 60), rgb(25, 158, 199));
+  };
+  :nth-child(3){
+
+    background:linear-gradient(rgb(51, 231, 34), rgb(235, 241, 60));
+  };
+  :nth-child(4){
+
+    background:linear-gradient(rgb(188, 63, 159), rgb(223, 61, 61));
+  };
+  :nth-child(5){
+
+    background:linear-gradient( rgb(19, 248, 225), rgb(246, 97, 52));
+  }
+
+}

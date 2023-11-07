@@ -1,0 +1,26 @@
+.container  {
+  width: 1000px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;  
+  ul{
+    list-style: none; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+}
+.btn-bd-primary {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-violet-bg);
+  --bs-btn-border-color: var(--bd-violet-bg);
+  --bs-btn-hover-color: var(--bs-white);
+ 
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+ 
+}

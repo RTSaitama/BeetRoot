@@ -1,0 +1,72 @@
+@import "./vars";
+@import "./mixins";
+// font-family: 'Aleo', serif;
+// font-family: 'Josefin Sans', sans-serif;
+
+
+// #region header
+.header_heading{
+
+  @include typo($primare_white,48px,normal,108.333%,$primare_font);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.header_subheading{
+  @include typo($primare_white,22px,normal,127.273%,$primare_font);
+
+letter-spacing: 6.82px;
+}
+.header {
+  width: 100%;
+  height: 100%;
+  max-width: 1920px;
+  height: 862px;
+  background-image: url(../assets/images/header_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+   .container{
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+}
+ 
+.search_wrapper {
+  color: var(--Text-Grey, #999);
+
+/* Body 1 */
+font-family: Josefin Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+letter-spacing: 2.8px;
+}
+.header_search {
+  @include typo($grey,14px,normal,142.857%,$primare_font);
+ 
+letter-spacing: 2.8px;
+}
+.header_search_label {
+}
+.search_btn {
+}
+.scroll_down_wrapper {
+}
+.scroll_down_link {
+}
+// #endregion
+
+// #region Why section
+
+
+
+// #endregion

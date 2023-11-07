@@ -1,0 +1,87 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  scroll-behavior: smooth;
+  list-style: none;
+}
+.container {
+  margin: 0 auto  ;
+  width: 1000px;   
+ text-align: left;
+
+}
+h1{
+  font-weight: 590;
+  line-height: 140%;
+  font-size: 37px;
+  letter-spacing: 1px;
+  padding-bottom: 35px;
+}
+h1 span{
+  line-height: 140%;
+  font-size: 37px;
+  letter-spacing: 1px;
+  padding-bottom: 35px;
+}
+h2{
+  font-weight: 550;
+  margin-bottom: 20px;
+  line-height: 140%;
+  font-size: 31px;
+  letter-spacing: 0.5px;
+ 
+}
+h2 span{
+   
+  line-height: 140%;
+  font-size: 31px;
+  letter-spacing: 1px;
+ 
+}
+.paragraph{
+  max-width: 50%;
+}
+.list{
+ font-size: 26px;
+}
+.list li{
+ 
+}
+ 
+p{
+  margin-bottom: 20px;
+}
+.browser_icons{
+  margin: 20px 0px 20px 0px;
+  width: 35px;
+  height: 35px;
+  margin-bottom: 35px;
+}
+.browsers_link{
+  color: #1155CC;
+}
+.browsers_link :visited{
+  color: #1155CC;
+}
+ 
+.example{
+  margin-left: 30px;
+  margin-top: 20px;
+  width: 600px;
+  height: 190px;
+  margin-bottom: 70px;
+}
+.point{
+  margin-left: 40px;
+  margin-right: 15px;
+}
+.video_section{
+  justify-content: center;
+  width: 1000px;
+}
+.footer{
+  
+}

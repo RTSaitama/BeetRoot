@@ -1,0 +1,68 @@
+.page_wrapper {
+  width: 100%;
+  max-width: 1170px;
+  margin: 120px auto;
+}
+
+/* #region header styles */
+.header {
+  position: relative;
+  text-align: center;
+}
+
+
+
+
+/* #endregion */
+
+/* #region Main Styles */
+.main {
+  padding-top: 70px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 180px;
+  justify-content: space-between;
+}
+
+/* #endregion */
+
+/* #region Photo  */
+.photo__container {
+  padding-top: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 435px;
+  width: 435px;
+  position: relative;
+}
+
+/* #endregion */
+
+/* #region About user Styles */
+.about__user_container {
+  display: flex;
+  padding-top: 130px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 435px;
+  width: 435px;
+  position: relative;
+}
+
+
+.social_icons__list {
+  display: flex;
+  margin: 30px;
+  gap: 5px;
+}
+
+.social__item {
+  width: 30px;
+  height: 30px;
+}
+
+
+/* #endregion */

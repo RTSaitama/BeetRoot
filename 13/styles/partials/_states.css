@@ -1,0 +1,23 @@
+.serv_item {
+  border: 1px solid #E5EAF4;
+  border-radius: 8px;
+}
+.serv_item:hover {
+  border: 1px solid #3DB370;
+}
+.serv_item:hover .icon_wrapper {
+  border: 1px solid #3DB370;
+}
+.serv_item:hover .hover_theme1 {
+  fill: #3DB370;
+}
+.serv_item:hover .hover_theme2 {
+  fill: #E1F4F5;
+}
+.serv_item:hover .hover_theme3 {
+  fill: #CAEFF2;
+}
+
+.footer_icons_item:hover {
+  --hovercolor:#3DB370 ;
+}

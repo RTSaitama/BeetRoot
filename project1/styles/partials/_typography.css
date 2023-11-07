@@ -1,0 +1,344 @@
+html, body {
+  color: #262A3F;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 26px;
+}
+
+.container {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+}
+
+.header_nav {
+  color: #262A3F;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 24px;
+}
+
+.nav_item q {
+  color: #262A3F;
+}
+
+.hero_title {
+  color: #262A3F;
+  font-family: "Playfair Display", serif;
+  font-size: 44px;
+  font-style: normal;
+  line-height: 52px;
+}
+.hero_title .secondary_spring {
+  color: #85BBB1;
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-style: italic;
+  line-height: 52px;
+}
+.hero_title .secondary_dark {
+  color: #689ff2;
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-style: italic;
+  line-height: 52px;
+}
+
+.secondary_spring {
+  color: #85BBB1;
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-style: italic;
+  line-height: 52px;
+  font-size: calc(16px + 24 * ((100vw - 320px) / 960));
+}
+
+.secondary_dark {
+  color: #689ff2;
+}
+
+.hero_subtitle {
+  opacity: 0.8;
+  opacity: 0.8;
+  font-size: calc(14px + 4 * ((100vw - 320px) / 960));
+  line-height: 26px;
+  font-weight: 300;
+  max-width: 439px;
+}
+
+.btn {
+  position: relative;
+  color: #F1897B;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+.btn::after {
+  position: absolute;
+  top: 4px;
+}
+.btnhover {
+  color: #E54F3A;
+}
+
+.count-item_title {
+  color: #262A3F;
+  font-family: "Playfair Display", serif;
+  font-size: 68px;
+  font-style: normal;
+  line-height: 72px;
+}
+
+.count-item_subtitle {
+  opacity: 0.8;
+  font-size: calc(14px + 4 * ((100vw - 320px) / 960));
+  line-height: 26px;
+  font-weight: 300;
+}
+
+.content_article {
+  opacity: 0.8;
+  font-size: calc(14px + 4 * ((100vw - 320px) / 960));
+  line-height: 26px;
+  font-weight: 300;
+}
+
+.dollar {
+  color: #E4E4E4;
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-style: normal;
+  line-height: 50px;
+}
+
+.benefit_title {
+  color: #262A3F;
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-style: normal;
+  line-height: 48px;
+}
+.benefit_title .secondary_spring {
+  font-size: 40px;
+}
+
+.benefit_sub {
+  opacity: 0.8;
+  font-size: calc(14px + 4 * ((100vw - 320px) / 960));
+  line-height: 26px;
+  font-weight: 300;
+}
+
+.quote_content {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  line-height: 46px;
+  letter-spacing: 1.28px;
+}
+
+.quote_title {
+  line-height: 46px;
+  letter-spacing: 0.9px;
+}
+
+.quote_subtitle {
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 20px;
+  letter-spacing: 1.6px;
+}
+
+.video_title {
+  color: #262A3F;
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-style: nomal;
+  line-height: 48px;
+}
+.video_title .secondary_spring {
+  font-size: 40px;
+}
+
+.video_subtitle {
+  opacity: 0.8;
+  font-size: calc(14px + 4 * ((100vw - 320px) / 960));
+  line-height: 26px;
+  font-weight: 300;
+}
+
+.item_heading {
+  color: #262A3F;
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  font-style: normal;
+  line-height: 28px;
+}
+
+.item_content {
+  opacity: 0.8;
+  font-size: calc(14px + 4 * ((100vw - 320px) / 960));
+  line-height: 26px;
+  font-weight: 300;
+  margin-bottom: 18px;
+}
+
+.frontcard_list {
+  font-size: calc(14px + 4 * ((100vw - 320px) / 960));
+}
+
+.reviews_heading {
+  color: #262A3F;
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-style: normal;
+  line-height: 48px;
+}
+.reviews_heading .secondary_spring {
+  font-size: 40px;
+}
+.reviews_heading .secondary_dark {
+  color: #689ff2;
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-style: italic;
+  line-height: 52px;
+}
+
+.reviews_subheding {
+  max-width: 400px;
+  opacity: 0.8;
+  font-size: calc(14px + 4 * ((100vw - 320px) / 960));
+  line-height: 26px;
+  font-weight: 300;
+}
+
+.review_text {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 26px;
+}
+
+.initials {
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 20px;
+  letter-spacing: 1.6px;
+}
+
+.contacts_heading {
+  margin-bottom: 29px;
+  color: #262A3F;
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-style: normal;
+  line-height: 39px;
+}
+.contacts_heading .secondary_spring {
+  font-size: 40px;
+}
+
+.contacts_subheading {
+  opacity: 0.8;
+  font-size: calc(14px + 4 * ((100vw - 320px) / 960));
+  line-height: 26px;
+  font-weight: 300;
+  max-width: 470px;
+}
+
+.form {
+  color: #262A3F;
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 20px;
+  font-size: calc(14px + 4 * ((100vw - 320px) / 960));
+  letter-spacing: 1.44px;
+}
+.form :not(:last-child) {
+  opacity: 0.5;
+  text-transform: capitalize;
+}
+
+.inp_wrapp ::placeholder {
+  color: #262A3F;
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 20px;
+  letter-spacing: 1.44px;
+}
+
+.dark__form_input::placeholder {
+  text-transform: capitalize;
+  color: #fff;
+}
+.dark__form_input::placeholder:focus {
+  color: #02e0ab;
+  text-shadow: #53f3cd 0.5px 0.3px 2.8px;
+}
+
+.rights {
+  color: #262A3F;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 26px;
+  font-size: calc(12px + 2 * ((100vw - 320px) / 960));
+  font-weight: 300;
+  opacity: 0.6;
+}
+
+.made_by {
+  color: #262A3F;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 26px;
+  font-size: calc(12px + 2 * ((100vw - 320px) / 960));
+  font-weight: 300;
+  text-transform: none;
+}
+
+.made_p {
+  opacity: 0.6;
+}
+
+.made_by_link {
+  letter-spacing: 1.12px;
+}
+
+.footer {
+  color: #262A3F;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 24px;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: calc(10px + 4 * ((100vw - 320px) / 960));
+}
+
+.agreement {
+  font-size: calc(12px + 2 * ((100vw - 320px) / 960));
+}
+
+.privacy_policy {
+  font-size: calc(12px + 2 * ((100vw - 320px) / 960));
+}
+
+.dark_font {
+  color: #fff;
+}

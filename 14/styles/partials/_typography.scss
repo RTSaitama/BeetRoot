@@ -1,0 +1,175 @@
+// #region fonts used
+// font-family: 'Lato', sans-serif;
+// font-family: 'Red Hat Display', sans-serif;
+// #endregion
+body{
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  line-height: normal;
+}
+// #region Header
+.nav__list{
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 4.2px;
+ 
+}
+// #endregion
+
+// #region Hero
+.heading{
+font-family: 'Red Hat Display', sans-serif;
+font-size: 48px;
+font-weight: 600;
+line-height: 64px; 
+letter-spacing: 2.4px;
+}
+// #endregion
+
+// #region Blog
+.section_title{
+  color: var(--base_black);
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 28px;
+  line-height: 64px;  
+  letter-spacing: 2.4px;
+}
+.tag {
+  color:var(--sub_grey);
+  font-size: 16px;
+  line-height: 166%;  
+  letter-spacing: 1.6px;
+  margin-bottom: 30px;
+}
+.title {
+  color: var(--base_black);
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 166%;  
+  letter-spacing: 2.3px;
+
+ 
+}
+.date {
+  color: var(--sub_grey);
+  line-height: 166%;  
+  letter-spacing: 1.6px;
+}
+.desc {
+  color: var(--desc_grey);
+line-height: 166%; 
+letter-spacing: 0.8px;
+}
+
+// #endregion
+
+// #region Latest posts 
+ 
+.view_all_btn{
+  color: var(--sub_grey);
+  line-height: 166%; /* 26.56px */
+  letter-spacing: 1.6px;
+ }
+
+
+ .section_list {
+  display: flex;
+  gap: 30px;
+}
+ 
+.card_meta_wrapp {
+
+  color: var(--sub_grey);
+  font-size: 12px;
+  line-height: 166%;  
+  letter-spacing: 1.2px;
+}
+ 
+.card_heading {
+  color: var(--base-black, #000);
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 166%;  
+  letter-spacing: 2.2px;
+  
+}
+.card_desc {
+  color: var(--sub_grey);
+  line-height: 166%; 
+  letter-spacing: 0.8px;
+ 
+}
+
+.load_more_btn{
+  background-color: var(--desc_grey);
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 166%; /* 26.56px */
+  letter-spacing: 1.6px;;
+}
+// #endregion
+
+// #region Info section
+ 
+.proff {
+  color: var(--base_black);
+ 
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 23px;
+  line-height: 166%; 
+  letter-spacing: 2.3px;
+}
+ 
+.info_right_block {
+  color: var(--sub_grey);
+  font-size: 19px;
+  line-height: 32px;  
+  letter-spacing: 0.95px;
+}
+
+// #endregion
+
+// #region Footer 
+ 
+ 
+
+.footer_title{
+ margin-top: 70px;
+ margin-bottom: 30px;
+}
+
+ 
+.contacts_list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.contacts_link {
+  color: var(--base_black);
+line-height: 166%; 
+letter-spacing: 1.6px;
+}
+
+.socket {
+  border: 1px solid #565656;
+}
+ 
+ 
+.contacts_list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.policy{
+  color: var(--base-black);
+  font-size: 12px;
+  line-height: 166%;  
+  letter-spacing: 1.2px;
+}
+
+// #endregion

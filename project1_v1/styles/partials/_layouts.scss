@@ -1,0 +1,201 @@
+@import "./vars";
+@import "./mixins";
+// #region header
+.header {
+  width: 100vw;
+  height: 100vw;
+ 
+  height: 862px;
+  background-image: url(../assets/images/header_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+   .container{
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+}
+.header_heading{
+  margin-bottom: 8px;
+}
+.header_subheading{
+  margin-bottom: 48px;
+}
+.heading_wrapper{
+  display: inline-block;
+  margin-bottom: 16%;
+}.container {
+}
+.search_wrapper {
+  position: relative;
+  width: 647px;
+  height: 60px;
+  background-color: $primare_white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header_search {
+  padding: 20px 334px 20px 36px;
+  width: 100%;
+  height: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: absolute;
+}
+.header_search_label {
+  width: 100%;
+  height: 100%;
+}
+.search_btn {
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  right: 5px;
+  width: 139px;
+  height: 52px;
+  padding: 16px 24px;
+  gap: 10px;
+   background-color: $accent;
+}
+.scroll_down_wrapper {
+  width: 102px;
+  height: 40px;
+ 
+display: flex;
+flex-direction: column;
+}
+.scroll_down_link {
+}
+// #endregion
+
+// #region nagigation
+.navigation {
+  width:100%;
+  height: 84px;
+  background-color: $accent;
+
+  .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+.logo_wrapper {
+ 
+}
+.nav {
+}
+.nav_list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+
+}
+.nav_item {
+}
+// #endregion
+
+// #region Why
+.why_section {
+  max-width: 1920px;
+  width: 100%;
+  height: 704px;
+  background-image: url(../assets/images/why_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  gap: 136px;
+ 
+  .container{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 300px;
+    padding: 124px 112px 124px 0px;
+  }
+
+ 
+.why_article {
+ 
+  max-width: 648px;
+  height: 324px;
+ 
+ 
+}
+.why_heading {
+  margin-bottom: 24px;  
+}
+.why_text_wrapper{
+  margin-bottom: 32px;
+}
+.why_text {
+  margin-bottom: 28px;
+}
+.why_btn_wrapper {
+}
+.why_btn {
+}
+.why_images_wrapper {
+  position: relative;
+ 
+  display: inline-block;
+  width: 100%;
+  max-width: 424px;
+  height: 456px;
+}
+.why_image_wrapp {
+
+  width: 350px;
+  height: 220px;
+
+}
+.why_img_wr1{
+ position: absolute;
+ right: 74px;
+ top: 0;
+}
+.why_img_wr2{
+  position: absolute;
+  left: 74px;
+  bottom: 0;
+}
+.why_landscape {
+  width: 100%;
+  height: 100%;
+ 
+}
+
+
+.why_svg_wrapper {
+  display: flex;
+  justify-content: center;
+  width: 1320px;
+  height: 306px;
+}
+.why_action1_wrapp {
+}
+.action_icon {
+}
+.search {
+}
+.why_action_text {
+}
+.why_action2_wrapp {
+}
+.select {
+}
+.why_action3_wrapp {
+}
+.book_n_enjoy {
+}
+}
+// #endregion

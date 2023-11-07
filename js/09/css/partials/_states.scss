@@ -1,0 +1,54 @@
+@import "./vars";
+.btn{
+  &:hover ,:focus{
+    border: 2px solid $tomato-light;
+    background-color:$tomato-light;
+    transform: scale(1.1);
+    transition: all .3s ease-out;
+    
+    cursor: url('../assets/images/cursor_black.svg') ,pointer;
+  }
+  &:active{
+    color: #000;
+    border: 2px solid #000;
+  }
+}
+ 
+.social_icon{
+  &:hover{
+  --brown-light:#F16A50;
+  transform: scale(1.2);
+  transition: all .3s ease-out;
+
+   
+}} 
+ 
+ 
+.logo{
+  &:hover{
+    --brown-light:#F16A50;
+    transform: scale(1.1);
+    transition: all .5s ease;
+    cursor: url('../assets/images/cursor_black.svg') ,pointer; 
+  }
+ }
+
+ .footer_logo{
+  &:hover{
+ 
+    transition: all .3s ease;
+    --brown-light:#F16A50;
+    cursor: url('../assets/images/cursor_black.svg') ,pointer; 
+  }
+}
+.footer_nav_item{
+  &:hover{
+    color:tomato;
+
+  }
+}
+.product_item{
+  &:hover{
+    border: 1px solid $tomato-light;
+  }
+}

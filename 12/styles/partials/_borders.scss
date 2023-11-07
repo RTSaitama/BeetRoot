@@ -1,0 +1,50 @@
+@mixin orange-border ($width,$height,$color) {
+  width: $width;
+  height: $height;
+  border-color: $color;
+  border-style: solid;
+  position: absolute;
+  content: '';
+
+}
+.border_top {
+  width: 400px;
+  height: 400px;
+ 
+  &::before{
+    left: -15px;
+    top: -15px;
+    border-width: 1px 0 0 1px;
+    @include orange-border(100px,100px,#FFCC00 )
+  }
+  &::after {
+    position: absolute;
+    right: 15px;
+    top: -15px;
+    border-width: 1px 1px 0 0;
+    @include orange-border(100px,100px,#FFCC00 )
+  }
+}
+
+.border_bot{
+  height: 432px;
+  width: 432px;
+  position: absolute;
+  &::before{
+    right: 15px;
+    bottom: 15px;
+    border-width: 0 1px 1px 0;
+    @include orange-border(100px,100px,#FFCC00 )
+  }
+  &::after {
+    left: -15px;
+    bottom: 15px;
+    border-width: 0 0 1px 1px;
+    @include orange-border(100px,100px,#FFCC00 )
+  }
+}
+
+ 
+
+ 
+ 

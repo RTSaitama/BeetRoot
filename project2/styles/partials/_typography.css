@@ -1,0 +1,228 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  color: #2C4058;
+}
+
+.page_wrapper {
+  font-size: 18px;
+}
+
+.head_nav {
+  color: #ffffff;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.head_nav_item {
+  color: #ffffff;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.head_nav_item a {
+  color: #ffffff;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.hero_motto {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.hero_sub {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 5.4px;
+  text-transform: uppercase;
+}
+
+.weDoHeading {
+  color: #2C4058;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.weDoSubTitle {
+  color: #2C4058;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.weDoTextTitle {
+  color: #2C4058;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.weDoTextContent {
+  color: #2C4058;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.more_details_btn {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.latestNewsHeading {
+  color: #2C4058;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.news_card_title {
+  color: #2C4058;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.news_card_text_content {
+  color: #2C4058;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.news_card_author {
+  color: #2C4058;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.news_card_date {
+  color: #55B7FF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.galleryHeading {
+  color: #2C4058;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.policy {
+  color: #FFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.formHeading {
+  color: #2C4058;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.get_in_touch_form {
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.markerText {
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.form_contacts {
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.toAuth button {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}

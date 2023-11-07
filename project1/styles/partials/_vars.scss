@@ -1,0 +1,26 @@
+$primare_dark_blue:#262A3F;
+$secondary_spring: #85BBB1;
+$secondary_dark:#689ff2;
+$coral:#F1897B;
+$dark_neon_color:rgba(83, 243, 205, 1);
+$primaryWhite:#fff;
+$primaryDark: #161926;
+$quote-gradient:#F1897B,
+#F1897B00;
+$borderColor:#E4E4E4;
+$btn_active:#E54F3A;
+$dark_btn_active:#02e0ab;
+$primare_font:'Lato',
+sans-serif;
+$secondary_font:'Playfair Display',
+serif;
+$circle_border:#E4E4E4;
+$theme_switcher_color:#F1897B;
+$play_color:#F1897B;
+$maxWidth: 1440;
+
+@mixin adaptiv-font($pcSize, $mobSize) {
+  $addSize: $pcSize - $mobSize;
+  $maxWidth: $maxWidth - 320;
+  font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}));
+}

@@ -1,0 +1,71 @@
+*{
+  transition: all 0.3s ease;
+  scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+.d-none{
+  display: none;
+}
+.head_social_item, .logo_wrappper, .btn{
+  &:focus, &:hover{
+    --mainLight: #ff8307;
+    border-color: #ff8307;
+    transform: scale(1.1);
+   
+  }
+}
+.head_nav_item  {
+  
+  &:focus, &:hover{
+    color: #ff8307;
+    transform: scale(1.2);
+     
+    transform: rotate(-5deg);
+    
+    list-style:url(../assets/icons/arrowDown.svg);
+  }
+
+}
+.prev_arrow_button, .next_arrow_button{
+  &:focus, &:hover{
+    --mainLight: #ff8307;
+    background-color: #28cff5b7;
+    transform: scale(1.1);
+  }}
+.btn{
+  &:focus, &:hover{
+    transform: scale(1.1);
+    transition: all 0.4s ease;
+    border-radius:10px;
+    border-width: 1px;
+    background-color:   #55B7FF;
+    border-color: #48aef6;;
+  }
+}
+.heroToScrollDown{
+    &:hover{
+    transform: scale(1.1);
+    transition: all 0.4s linear;
+    background-color: #ff8307;
+    border-width: .1px;
+  }
+}
+.zoom_icon{
+  opacity: 0;
+}
+.gallery_card{
+   &:hover{
+    .zoom_icon{
+      opacity: 10;
+    }
+   }
+}
+.form_contacts a{
+  &:hover , &:focus{
+    color: #734ef6;
+     
+  }
+}
+.footerSlider{
+  transition: all 0.8s ease-out;
+}

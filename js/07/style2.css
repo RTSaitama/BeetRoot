@@ -1,0 +1,46 @@
+.container{
+  display: flex;
+  max-width: 1200px;
+  margin-top: 200px;
+  width: 100%;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  height: 25px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-style: 16px;
+  background-color: bisque;
+  margin: 50px;
+}
+.closeBtn{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  border-radius: 4px;
+}
+.modalka{
+  position: relative;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 500px;
+  height: 200px;
+  background-color: rgb(110, 64, 64);
+  border-radius: 16px;
+  border: 4px solid rgb(213, 154, 154);
+}
+.modalka p{
+font-weight: bold;
+font-style: 20px;
+letter-spacing: 1.5;
+color: darkseagreen;
+}

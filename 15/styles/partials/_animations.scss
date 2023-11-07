@@ -1,0 +1,49 @@
+
+.card{
+  position: relative;
+fill-opacity: 0;
+background-image: url(../assets/images/back.png);
+background-size: 100px;
+background-repeat: no-repeat;
+background-position: center;
+transition:all linear 0.8s ; 
+animation-name: flip;
+animation-duration: 1.5s;
+animation-iteration-count: infinite;
+animation-direction:normal;
+animation-fill-mode: both;
+transform: translateY(2%);
+fill-opacity: 0;
+
+ &:hover  {
+  
+
+ }
+}
+ 
+
+.active{
+  transition:all linear 0.8s ; 
+  animation-name: flip;
+
+}
+ 
+@keyframes flip{
+  
+  0%{
+
+  transform: rotateY(0deg);
+ 
+  }
+ 25%{
+ 
+  fill-opacity: 0;    
+ }
+  100%{
+
+    transform: rotateY(180deg);
+    background-image: none; 
+    opacity: 8;
+     fill-opacity: 10;
+  }
+}
